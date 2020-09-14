@@ -5,9 +5,9 @@ Sample SOAP web service developed in Spring Boot 2.x.
 Service exposes few country information such as population, capital and currency.
 Those info are hard-coded for just 3 countries (Spain, Poland and United Kingdom).
 
-
 Run
 ---
+In a shell :
 
 ```
 $ mvn springboot:run --spring.profiles.active=dev
@@ -49,3 +49,4 @@ Response example
    </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 ```
+
