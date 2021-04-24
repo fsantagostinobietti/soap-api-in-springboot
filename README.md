@@ -50,3 +50,11 @@ Response example
 </SOAP-ENV:Envelope>
 ```
 
+Advanced Config
+---
+It's possible to change response timing using properties/env variables:
+
+| Property | Environment Variable | Description |
+| ---      | ---                  | ---         |
+| **response.delay.in.mills** | **RESPONSE_DELAY_IN_MILLS** | response time in milliseconds (defaults to 0) |
+| **response.random.delay** | **RESPONSE_RANDOM_DELAY** | response time uniformly distributed in (0, ${response.delay.in.mills}) range (defaults to false) |
